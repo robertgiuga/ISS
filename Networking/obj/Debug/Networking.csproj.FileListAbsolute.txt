@@ -1,0 +1,6 @@
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\bin\Debug\Networking.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\bin\Debug\Networking.pdb
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\obj\Debug\Networking.csproj.AssemblyReference.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\obj\Debug\Networking.csproj.CoreCompileInputs.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\obj\Debug\Networking.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Networking\obj\Debug\Networking.pdb

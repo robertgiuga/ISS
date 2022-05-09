@@ -1,0 +1,9 @@
+D:\anu 2\sem2\ISS\SistemVanzari\Services\bin\Debug\Services.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Services\bin\Debug\Services.pdb
+D:\anu 2\sem2\ISS\SistemVanzari\Services\bin\Debug\Model.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Services\bin\Debug\Model.pdb
+D:\anu 2\sem2\ISS\SistemVanzari\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Services\obj\Debug\Services.csproj.CopyComplete
+D:\anu 2\sem2\ISS\SistemVanzari\Services\obj\Debug\Services.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Services\obj\Debug\Services.pdb

@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\VanzariClient\\VanzariClient.csproj": {}
+  },
+  "projects": {
+    "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Services\\Services.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Services\\Services.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj": {
+                "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\VanzariClient\\VanzariClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\VanzariClient\\VanzariClient.csproj",
+        "projectName": "VanzariClient",
+        "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\VanzariClient\\VanzariClient.csproj",
+        "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
+        "outputPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\VanzariClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj": {
+                "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Model\\Model.csproj"
+              },
+              "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Services\\Services.csproj": {
+                "projectPath": "D:\\anu 2\\sem2\\ISS\\SistemVanzari\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.20.1, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.45.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.45.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

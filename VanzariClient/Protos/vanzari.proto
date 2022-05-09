@@ -1,0 +1,43 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "VanzariService";
+
+package vanzari;
+
+service Service {
+
+  rpc logIn(RequestGrpc) returns(ReplyGrpc){};
+  rpc logOut(RequestGrpc) returns(ReplyGrpc){};
+  rpc findAllProduse(RequestGrpc) returns(ReplyGrpc){};
+  rpc addProdus(RequestGrpc) returns (ReplyGrpc){};
+  rpc updateProdus(RequestGrpc) returns (ReplyGrpc){};
+  rpc deleteProdus(RequestGrpc) returns (ReplyGrpc){};
+}
+
+message AngajatGrpc{
+	string userName=1;
+	string nume=2;
+	string password=3;
+	int32 role=4;
+}
+message ProdusGrpc{
+	int32 id=1;
+	string descriere=2;
+	string denumire=3;
+	int32 cantitate=4;
+}
+
+message RequestGrpc {
+  AngajatGrpc angajat =1;
+  ProdusGrpc produs=2;
+  int32 port= 3;
+}
+
+// The response message containing the greetings.
+message ReplyGrpc {
+	enum ResponseType{OK=0; ERROR=1;}
+	ResponseType Type=1;
+	AngajatGrpc angajat=2;
+	string Message=3;
+	repeated ProdusGrpc produs=4;
+}

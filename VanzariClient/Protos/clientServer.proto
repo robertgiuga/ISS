@@ -1,0 +1,36 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ClientServer";
+
+package client;
+
+service ClientServer{
+	rpc update(RequestClientGrpc) returns(ReplyClientGrpc){};
+}
+
+message RequestClientGrpc {
+  enum RequestType{ADD=0; DELETE=1; MOD=2;}
+  RequestType Type=1;
+  AngajatGrpc angajat =2;
+  ProdusGrpc produs=3;
+}
+
+// The response message containing the greetings.
+message ReplyClientGrpc {
+	enum ResponseType{OK=0; ERROR=1;}
+	ResponseType Type=1;
+	string Message=3;
+}
+
+message AngajatGrpc{
+	string userName=1;
+	string nume=2;
+	string password=3;
+	int32 role=4;
+}
+message ProdusGrpc{
+	int32 id=1;
+	string descriere=2;
+	string denumire=3;
+	int32 cantitate=4;
+}

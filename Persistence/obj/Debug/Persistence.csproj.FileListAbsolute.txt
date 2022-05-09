@@ -1,0 +1,9 @@
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\bin\Debug\Persistence.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\bin\Debug\Persistence.pdb
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\bin\Debug\Model.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\bin\Debug\Model.pdb
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\obj\Debug\Persistence.csproj.AssemblyReference.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\obj\Debug\Persistence.csproj.CoreCompileInputs.cache
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\obj\Debug\Persistence.csproj.CopyComplete
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\obj\Debug\Persistence.dll
+D:\anu 2\sem2\ISS\SistemVanzari\Persistence\obj\Debug\Persistence.pdb
