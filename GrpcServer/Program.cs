@@ -4,6 +4,7 @@ using Persistence.interfaces;
 using Persistence.classes;
 using GrpcServer.DBContexts;
 using Model;
+using GrpcServer.Persistence.classes;
 
 namespace GrpcServer
 {
@@ -14,9 +15,10 @@ namespace GrpcServer
             
             IProdusRepository produsRepository = new ProdusDBRepository();
             IAngajatRepository angajatRepository = new AngajatDBRepository();
+            IComandaRepository comandaRepository = new ComandaDBRepository();
             Server server = new Server
             {
-                Services = { VanzariService.Service.BindService(new Service(angajatRepository,produsRepository)) },
+                Services = { VanzariService.Service.BindService(new Service(angajatRepository,produsRepository,comandaRepository)) },
                 Ports = { new ServerPort("localhost", 3001, ServerCredentials.Insecure) }
             };
             server.Start();

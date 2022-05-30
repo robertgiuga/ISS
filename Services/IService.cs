@@ -9,11 +9,14 @@ namespace Services
 {
     public interface IService
     {
-        Angajat LogIn(Angajat angajat, IVanzariObserver client);
+        Angajat LogIn(Angajat angajat, Observer client);
         void LogOut(Angajat angajat);
-        IEnumerable<Produs> findAllProduse();
+        IEnumerable<Produs> FindAllProduse();
         void AddProdus(Produs produs);
         void DeleteProdus(Produs produs);
         void UpdateProdus(Produs produs);
+        void SendOrder(Comanda comanda, List<ComandaItem> items);
+        IEnumerable<Comanda> FindAllComenzi();
+        void UpdateComanda(Comanda comanda);
     }
 }

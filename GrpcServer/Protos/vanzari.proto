@@ -12,6 +12,9 @@ service Service {
   rpc addProdus(RequestGrpc) returns (ReplyGrpc){};
   rpc updateProdus(RequestGrpc) returns (ReplyGrpc){};
   rpc deleteProdus(RequestGrpc) returns (ReplyGrpc){};
+  rpc addComanda(RequestGrpc) returns(ReplyGrpc){};
+  rpc updateComanda(RequestGrpc) returns (ReplyGrpc){};
+  rpc findAllComenzi(RequestGrpc) returns(ReplyGrpc){};
 }
 
 message AngajatGrpc{
@@ -26,11 +29,23 @@ message ProdusGrpc{
 	string denumire=3;
 	int32 cantitate=4;
 }
+message ComandaGrpc{
+	int32 id=1;
+	string descriere=2;
+	int32 status=3;
+}
+message ComandaItemGrpc{
+	int32 id=1;
+	int32 comandaId=2;
+	int32 cantitate=3;
+}
 
 message RequestGrpc {
   AngajatGrpc angajat =1;
   ProdusGrpc produs=2;
   int32 port= 3;
+  ComandaGrpc comanda=4;
+  repeated ComandaItemGrpc comandaItems=5;
 }
 
 // The response message containing the greetings.
@@ -40,4 +55,5 @@ message ReplyGrpc {
 	AngajatGrpc angajat=2;
 	string Message=3;
 	repeated ProdusGrpc produs=4;
+	repeated ComandaGrpc comanda=5;
 }

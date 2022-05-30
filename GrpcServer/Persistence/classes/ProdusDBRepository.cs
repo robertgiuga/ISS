@@ -41,7 +41,12 @@ namespace Persistence.classes
 
         public Produs FindById(int id)
         {
-            throw new NotImplementedException();
+            Produs produs = null;
+            using (var context = new VanzariDbContext())
+            {
+                produs=context.Produse.Find(id);
+            }
+            return produs;
         }
 
         public void Update(Produs newelem)

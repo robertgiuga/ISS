@@ -5,29 +5,20 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using VanzariClient.Controllers;
 
 namespace VanzariClient
 {
     public partial class LogIn : Form
     {
-        private Controller controller;
-        public LogIn(Controller controller)
+        private LogInController controller;
+        public LogIn(LogInController controller)
         {
             this.controller = controller;
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LogIn_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void LogIn_Click(object sender, EventArgs e)
         {
             try
             {
@@ -39,15 +30,11 @@ namespace VanzariClient
                 else
                     MessageBox.Show("Invalid credentials");
             }
-            catch(Exception er)
+            catch (Exception er)
             {
                 MessageBox.Show(er.Message);
             }
-            
-
         }
-
-        
     }
 }
 

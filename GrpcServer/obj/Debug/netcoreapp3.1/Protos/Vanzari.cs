@@ -28,29 +28,41 @@ namespace VanzariService {
             "YxIQCgh1c2VyTmFtZRgBIAEoCRIMCgRudW1lGAIgASgJEhAKCHBhc3N3b3Jk",
             "GAMgASgJEgwKBHJvbGUYBCABKAUiUAoKUHJvZHVzR3JwYxIKCgJpZBgBIAEo",
             "BRIRCglkZXNjcmllcmUYAiABKAkSEAoIZGVudW1pcmUYAyABKAkSEQoJY2Fu",
-            "dGl0YXRlGAQgASgFImcKC1JlcXVlc3RHcnBjEiUKB2FuZ2FqYXQYASABKAsy",
-            "FC52YW56YXJpLkFuZ2FqYXRHcnBjEiMKBnByb2R1cxgCIAEoCzITLnZhbnph",
-            "cmkuUHJvZHVzR3JwYxIMCgRwb3J0GAMgASgFIroBCglSZXBseUdycGMSLQoE",
-            "VHlwZRgBIAEoDjIfLnZhbnphcmkuUmVwbHlHcnBjLlJlc3BvbnNlVHlwZRIl",
-            "CgdhbmdhamF0GAIgASgLMhQudmFuemFyaS5BbmdhamF0R3JwYxIPCgdNZXNz",
-            "YWdlGAMgASgJEiMKBnByb2R1cxgEIAMoCzITLnZhbnphcmkuUHJvZHVzR3Jw",
-            "YyIhCgxSZXNwb25zZVR5cGUSBgoCT0sQABIJCgVFUlJPUhABMuMCCgdTZXJ2",
-            "aWNlEjMKBWxvZ0luEhQudmFuemFyaS5SZXF1ZXN0R3JwYxoSLnZhbnphcmku",
-            "UmVwbHlHcnBjIgASNAoGbG9nT3V0EhQudmFuemFyaS5SZXF1ZXN0R3JwYxoS",
-            "LnZhbnphcmkuUmVwbHlHcnBjIgASPAoOZmluZEFsbFByb2R1c2USFC52YW56",
-            "YXJpLlJlcXVlc3RHcnBjGhIudmFuemFyaS5SZXBseUdycGMiABI3CglhZGRQ",
-            "cm9kdXMSFC52YW56YXJpLlJlcXVlc3RHcnBjGhIudmFuemFyaS5SZXBseUdy",
-            "cGMiABI6Cgx1cGRhdGVQcm9kdXMSFC52YW56YXJpLlJlcXVlc3RHcnBjGhIu",
-            "dmFuemFyaS5SZXBseUdycGMiABI6CgxkZWxldGVQcm9kdXMSFC52YW56YXJp",
-            "LlJlcXVlc3RHcnBjGhIudmFuemFyaS5SZXBseUdycGMiAEIRqgIOVmFuemFy",
-            "aVNlcnZpY2ViBnByb3RvMw=="));
+            "dGl0YXRlGAQgASgFIjwKC0NvbWFuZGFHcnBjEgoKAmlkGAEgASgFEhEKCWRl",
+            "c2NyaWVyZRgCIAEoCRIOCgZzdGF0dXMYAyABKAUiQwoPQ29tYW5kYUl0ZW1H",
+            "cnBjEgoKAmlkGAEgASgFEhEKCWNvbWFuZGFJZBgCIAEoBRIRCgljYW50aXRh",
+            "dGUYAyABKAUivgEKC1JlcXVlc3RHcnBjEiUKB2FuZ2FqYXQYASABKAsyFC52",
+            "YW56YXJpLkFuZ2FqYXRHcnBjEiMKBnByb2R1cxgCIAEoCzITLnZhbnphcmku",
+            "UHJvZHVzR3JwYxIMCgRwb3J0GAMgASgFEiUKB2NvbWFuZGEYBCABKAsyFC52",
+            "YW56YXJpLkNvbWFuZGFHcnBjEi4KDGNvbWFuZGFJdGVtcxgFIAMoCzIYLnZh",
+            "bnphcmkuQ29tYW5kYUl0ZW1HcnBjIuEBCglSZXBseUdycGMSLQoEVHlwZRgB",
+            "IAEoDjIfLnZhbnphcmkuUmVwbHlHcnBjLlJlc3BvbnNlVHlwZRIlCgdhbmdh",
+            "amF0GAIgASgLMhQudmFuemFyaS5BbmdhamF0R3JwYxIPCgdNZXNzYWdlGAMg",
+            "ASgJEiMKBnByb2R1cxgEIAMoCzITLnZhbnphcmkuUHJvZHVzR3JwYxIlCgdj",
+            "b21hbmRhGAUgAygLMhQudmFuemFyaS5Db21hbmRhR3JwYyIhCgxSZXNwb25z",
+            "ZVR5cGUSBgoCT0sQABIJCgVFUlJPUhABMpgECgdTZXJ2aWNlEjMKBWxvZ0lu",
+            "EhQudmFuemFyaS5SZXF1ZXN0R3JwYxoSLnZhbnphcmkuUmVwbHlHcnBjIgAS",
+            "NAoGbG9nT3V0EhQudmFuemFyaS5SZXF1ZXN0R3JwYxoSLnZhbnphcmkuUmVw",
+            "bHlHcnBjIgASPAoOZmluZEFsbFByb2R1c2USFC52YW56YXJpLlJlcXVlc3RH",
+            "cnBjGhIudmFuemFyaS5SZXBseUdycGMiABI3CglhZGRQcm9kdXMSFC52YW56",
+            "YXJpLlJlcXVlc3RHcnBjGhIudmFuemFyaS5SZXBseUdycGMiABI6Cgx1cGRh",
+            "dGVQcm9kdXMSFC52YW56YXJpLlJlcXVlc3RHcnBjGhIudmFuemFyaS5SZXBs",
+            "eUdycGMiABI6CgxkZWxldGVQcm9kdXMSFC52YW56YXJpLlJlcXVlc3RHcnBj",
+            "GhIudmFuemFyaS5SZXBseUdycGMiABI4CgphZGRDb21hbmRhEhQudmFuemFy",
+            "aS5SZXF1ZXN0R3JwYxoSLnZhbnphcmkuUmVwbHlHcnBjIgASOwoNdXBkYXRl",
+            "Q29tYW5kYRIULnZhbnphcmkuUmVxdWVzdEdycGMaEi52YW56YXJpLlJlcGx5",
+            "R3JwYyIAEjwKDmZpbmRBbGxDb21lbnppEhQudmFuemFyaS5SZXF1ZXN0R3Jw",
+            "YxoSLnZhbnphcmkuUmVwbHlHcnBjIgBCEaoCDlZhbnphcmlTZXJ2aWNlYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.AngajatGrpc), global::VanzariService.AngajatGrpc.Parser, new[]{ "UserName", "Nume", "Password", "Role" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.ProdusGrpc), global::VanzariService.ProdusGrpc.Parser, new[]{ "Id", "Descriere", "Denumire", "Cantitate" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.RequestGrpc), global::VanzariService.RequestGrpc.Parser, new[]{ "Angajat", "Produs", "Port" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.ReplyGrpc), global::VanzariService.ReplyGrpc.Parser, new[]{ "Type", "Angajat", "Message", "Produs" }, null, new[]{ typeof(global::VanzariService.ReplyGrpc.Types.ResponseType) }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.ComandaGrpc), global::VanzariService.ComandaGrpc.Parser, new[]{ "Id", "Descriere", "Status" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.ComandaItemGrpc), global::VanzariService.ComandaItemGrpc.Parser, new[]{ "Id", "ComandaId", "Cantitate" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.RequestGrpc), global::VanzariService.RequestGrpc.Parser, new[]{ "Angajat", "Produs", "Port", "Comanda", "ComandaItems" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::VanzariService.ReplyGrpc), global::VanzariService.ReplyGrpc.Parser, new[]{ "Type", "Angajat", "Message", "Produs", "Comanda" }, null, new[]{ typeof(global::VanzariService.ReplyGrpc.Types.ResponseType) }, null, null)
           }));
     }
     #endregion
@@ -657,6 +669,532 @@ namespace VanzariService {
 
   }
 
+  public sealed partial class ComandaGrpc : pb::IMessage<ComandaGrpc>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ComandaGrpc> _parser = new pb::MessageParser<ComandaGrpc>(() => new ComandaGrpc());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ComandaGrpc> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaGrpc() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaGrpc(ComandaGrpc other) : this() {
+      id_ = other.id_;
+      descriere_ = other.descriere_;
+      status_ = other.status_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaGrpc Clone() {
+      return new ComandaGrpc(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private int id_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Id {
+      get { return id_; }
+      set {
+        id_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "descriere" field.</summary>
+    public const int DescriereFieldNumber = 2;
+    private string descriere_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Descriere {
+      get { return descriere_; }
+      set {
+        descriere_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 3;
+    private int status_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Status {
+      get { return status_; }
+      set {
+        status_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ComandaGrpc);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ComandaGrpc other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (Descriere != other.Descriere) return false;
+      if (Status != other.Status) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id != 0) hash ^= Id.GetHashCode();
+      if (Descriere.Length != 0) hash ^= Descriere.GetHashCode();
+      if (Status != 0) hash ^= Status.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Id);
+      }
+      if (Descriere.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Descriere);
+      }
+      if (Status != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Status);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Id);
+      }
+      if (Descriere.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Descriere);
+      }
+      if (Status != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Status);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
+      }
+      if (Descriere.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Descriere);
+      }
+      if (Status != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Status);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ComandaGrpc other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id != 0) {
+        Id = other.Id;
+      }
+      if (other.Descriere.Length != 0) {
+        Descriere = other.Descriere;
+      }
+      if (other.Status != 0) {
+        Status = other.Status;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Id = input.ReadInt32();
+            break;
+          }
+          case 18: {
+            Descriere = input.ReadString();
+            break;
+          }
+          case 24: {
+            Status = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Id = input.ReadInt32();
+            break;
+          }
+          case 18: {
+            Descriere = input.ReadString();
+            break;
+          }
+          case 24: {
+            Status = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class ComandaItemGrpc : pb::IMessage<ComandaItemGrpc>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ComandaItemGrpc> _parser = new pb::MessageParser<ComandaItemGrpc>(() => new ComandaItemGrpc());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ComandaItemGrpc> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaItemGrpc() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaItemGrpc(ComandaItemGrpc other) : this() {
+      id_ = other.id_;
+      comandaId_ = other.comandaId_;
+      cantitate_ = other.cantitate_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ComandaItemGrpc Clone() {
+      return new ComandaItemGrpc(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private int id_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Id {
+      get { return id_; }
+      set {
+        id_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "comandaId" field.</summary>
+    public const int ComandaIdFieldNumber = 2;
+    private int comandaId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int ComandaId {
+      get { return comandaId_; }
+      set {
+        comandaId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "cantitate" field.</summary>
+    public const int CantitateFieldNumber = 3;
+    private int cantitate_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Cantitate {
+      get { return cantitate_; }
+      set {
+        cantitate_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ComandaItemGrpc);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ComandaItemGrpc other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (ComandaId != other.ComandaId) return false;
+      if (Cantitate != other.Cantitate) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id != 0) hash ^= Id.GetHashCode();
+      if (ComandaId != 0) hash ^= ComandaId.GetHashCode();
+      if (Cantitate != 0) hash ^= Cantitate.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Id);
+      }
+      if (ComandaId != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(ComandaId);
+      }
+      if (Cantitate != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Cantitate);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Id);
+      }
+      if (ComandaId != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(ComandaId);
+      }
+      if (Cantitate != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(Cantitate);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
+      }
+      if (ComandaId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ComandaId);
+      }
+      if (Cantitate != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Cantitate);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ComandaItemGrpc other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id != 0) {
+        Id = other.Id;
+      }
+      if (other.ComandaId != 0) {
+        ComandaId = other.ComandaId;
+      }
+      if (other.Cantitate != 0) {
+        Cantitate = other.Cantitate;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Id = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            ComandaId = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            Cantitate = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Id = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            ComandaId = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            Cantitate = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   public sealed partial class RequestGrpc : pb::IMessage<RequestGrpc>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -671,7 +1209,7 @@ namespace VanzariService {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[2]; }
+      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -694,6 +1232,8 @@ namespace VanzariService {
       angajat_ = other.angajat_ != null ? other.angajat_.Clone() : null;
       produs_ = other.produs_ != null ? other.produs_.Clone() : null;
       port_ = other.port_;
+      comanda_ = other.comanda_ != null ? other.comanda_.Clone() : null;
+      comandaItems_ = other.comandaItems_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -739,6 +1279,29 @@ namespace VanzariService {
       }
     }
 
+    /// <summary>Field number for the "comanda" field.</summary>
+    public const int ComandaFieldNumber = 4;
+    private global::VanzariService.ComandaGrpc comanda_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::VanzariService.ComandaGrpc Comanda {
+      get { return comanda_; }
+      set {
+        comanda_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "comandaItems" field.</summary>
+    public const int ComandaItemsFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::VanzariService.ComandaItemGrpc> _repeated_comandaItems_codec
+        = pb::FieldCodec.ForMessage(42, global::VanzariService.ComandaItemGrpc.Parser);
+    private readonly pbc::RepeatedField<global::VanzariService.ComandaItemGrpc> comandaItems_ = new pbc::RepeatedField<global::VanzariService.ComandaItemGrpc>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::VanzariService.ComandaItemGrpc> ComandaItems {
+      get { return comandaItems_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -757,6 +1320,8 @@ namespace VanzariService {
       if (!object.Equals(Angajat, other.Angajat)) return false;
       if (!object.Equals(Produs, other.Produs)) return false;
       if (Port != other.Port) return false;
+      if (!object.Equals(Comanda, other.Comanda)) return false;
+      if(!comandaItems_.Equals(other.comandaItems_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -767,6 +1332,8 @@ namespace VanzariService {
       if (angajat_ != null) hash ^= Angajat.GetHashCode();
       if (produs_ != null) hash ^= Produs.GetHashCode();
       if (Port != 0) hash ^= Port.GetHashCode();
+      if (comanda_ != null) hash ^= Comanda.GetHashCode();
+      hash ^= comandaItems_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -797,6 +1364,11 @@ namespace VanzariService {
         output.WriteRawTag(24);
         output.WriteInt32(Port);
       }
+      if (comanda_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Comanda);
+      }
+      comandaItems_.WriteTo(output, _repeated_comandaItems_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -819,6 +1391,11 @@ namespace VanzariService {
         output.WriteRawTag(24);
         output.WriteInt32(Port);
       }
+      if (comanda_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Comanda);
+      }
+      comandaItems_.WriteTo(ref output, _repeated_comandaItems_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -838,6 +1415,10 @@ namespace VanzariService {
       if (Port != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Port);
       }
+      if (comanda_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Comanda);
+      }
+      size += comandaItems_.CalculateSize(_repeated_comandaItems_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -865,6 +1446,13 @@ namespace VanzariService {
       if (other.Port != 0) {
         Port = other.Port;
       }
+      if (other.comanda_ != null) {
+        if (comanda_ == null) {
+          Comanda = new global::VanzariService.ComandaGrpc();
+        }
+        Comanda.MergeFrom(other.Comanda);
+      }
+      comandaItems_.Add(other.comandaItems_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -896,6 +1484,17 @@ namespace VanzariService {
           }
           case 24: {
             Port = input.ReadInt32();
+            break;
+          }
+          case 34: {
+            if (comanda_ == null) {
+              Comanda = new global::VanzariService.ComandaGrpc();
+            }
+            input.ReadMessage(Comanda);
+            break;
+          }
+          case 42: {
+            comandaItems_.AddEntriesFrom(input, _repeated_comandaItems_codec);
             break;
           }
         }
@@ -931,6 +1530,17 @@ namespace VanzariService {
             Port = input.ReadInt32();
             break;
           }
+          case 34: {
+            if (comanda_ == null) {
+              Comanda = new global::VanzariService.ComandaGrpc();
+            }
+            input.ReadMessage(Comanda);
+            break;
+          }
+          case 42: {
+            comandaItems_.AddEntriesFrom(ref input, _repeated_comandaItems_codec);
+            break;
+          }
         }
       }
     }
@@ -955,7 +1565,7 @@ namespace VanzariService {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[3]; }
+      get { return global::VanzariService.VanzariReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -979,6 +1589,7 @@ namespace VanzariService {
       angajat_ = other.angajat_ != null ? other.angajat_.Clone() : null;
       message_ = other.message_;
       produs_ = other.produs_.Clone();
+      comanda_ = other.comanda_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1035,6 +1646,17 @@ namespace VanzariService {
       get { return produs_; }
     }
 
+    /// <summary>Field number for the "comanda" field.</summary>
+    public const int ComandaFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::VanzariService.ComandaGrpc> _repeated_comanda_codec
+        = pb::FieldCodec.ForMessage(42, global::VanzariService.ComandaGrpc.Parser);
+    private readonly pbc::RepeatedField<global::VanzariService.ComandaGrpc> comanda_ = new pbc::RepeatedField<global::VanzariService.ComandaGrpc>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::VanzariService.ComandaGrpc> Comanda {
+      get { return comanda_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1054,6 +1676,7 @@ namespace VanzariService {
       if (!object.Equals(Angajat, other.Angajat)) return false;
       if (Message != other.Message) return false;
       if(!produs_.Equals(other.produs_)) return false;
+      if(!comanda_.Equals(other.comanda_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1065,6 +1688,7 @@ namespace VanzariService {
       if (angajat_ != null) hash ^= Angajat.GetHashCode();
       if (Message.Length != 0) hash ^= Message.GetHashCode();
       hash ^= produs_.GetHashCode();
+      hash ^= comanda_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1096,6 +1720,7 @@ namespace VanzariService {
         output.WriteString(Message);
       }
       produs_.WriteTo(output, _repeated_produs_codec);
+      comanda_.WriteTo(output, _repeated_comanda_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1119,6 +1744,7 @@ namespace VanzariService {
         output.WriteString(Message);
       }
       produs_.WriteTo(ref output, _repeated_produs_codec);
+      comanda_.WriteTo(ref output, _repeated_comanda_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1139,6 +1765,7 @@ namespace VanzariService {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Message);
       }
       size += produs_.CalculateSize(_repeated_produs_codec);
+      size += comanda_.CalculateSize(_repeated_comanda_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1164,6 +1791,7 @@ namespace VanzariService {
         Message = other.Message;
       }
       produs_.Add(other.produs_);
+      comanda_.Add(other.comanda_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1198,6 +1826,10 @@ namespace VanzariService {
             produs_.AddEntriesFrom(input, _repeated_produs_codec);
             break;
           }
+          case 42: {
+            comanda_.AddEntriesFrom(input, _repeated_comanda_codec);
+            break;
+          }
         }
       }
     #endif
@@ -1230,6 +1862,10 @@ namespace VanzariService {
           }
           case 34: {
             produs_.AddEntriesFrom(ref input, _repeated_produs_codec);
+            break;
+          }
+          case 42: {
+            comanda_.AddEntriesFrom(ref input, _repeated_comanda_codec);
             break;
           }
         }

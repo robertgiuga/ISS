@@ -15,5 +15,8 @@ namespace GrpcServer.DBContexts
 
         public DbSet<Angajat> Angajati { get; set; }
         public DbSet<Produs> Produse { get; set; }
+        public DbSet<Comanda> Comenzi { get; set; }
+        public DbSet<ComandaItem> ComandaItems { get; set; }
+
     }
 }

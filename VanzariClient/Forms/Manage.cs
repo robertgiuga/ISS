@@ -1,4 +1,5 @@
 ﻿using Model;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -6,14 +7,15 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using VanzariClient.Controllers;
 
 namespace VanzariClient
 {
     public partial class Manage : Form
     {
-        private Controller controller;
+        private AdminController controller;
         private BindingList<Produs> produse;
-        public Manage(Controller controller)
+        public Manage(AdminController controller)
         {
             InitializeComponent();
             this.controller = controller;
@@ -59,7 +61,7 @@ namespace VanzariClient
         {
             try
             {
-                produse = new BindingList<Produs>((IList<Produs>) controller.findAllProduse()) ;
+                produse = new BindingList<Produs>((IList<Produs>) controller.FindAllProduse()) ;
                 produseDataGridView.DataSource = produse;
             }
             catch(Exception er)

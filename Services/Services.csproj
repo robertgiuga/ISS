@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IService.cs" />
+    <Compile Include="IVanzariAngajatObserver.cs" />
     <Compile Include="IVanzariObserver.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidationExcetion.cs" />
   </ItemGroup>

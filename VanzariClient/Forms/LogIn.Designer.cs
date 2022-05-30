@@ -77,7 +77,7 @@ namespace VanzariClient
             this.button1.TabIndex = 4;
             this.button1.Text = "LogIn";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.LogIn_Click);
             // 
             // LogIn
             // 
@@ -92,7 +92,6 @@ namespace VanzariClient
             this.Name = "LogIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogIn";
-            this.Load += new System.EventHandler(this.LogIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

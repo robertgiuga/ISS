@@ -9,10 +9,11 @@ service ClientServer{
 }
 
 message RequestClientGrpc {
-  enum RequestType{ADD=0; DELETE=1; MOD=2;}
+  enum RequestType{ADD=0; DELETE=1; MOD=2; UPDCOM=3;RELOAD=4;}
   RequestType Type=1;
   AngajatGrpc angajat =2;
   ProdusGrpc produs=3;
+  ComandaGrpc comanda=4;
 }
 
 // The response message containing the greetings.
@@ -33,4 +34,9 @@ message ProdusGrpc{
 	string descriere=2;
 	string denumire=3;
 	int32 cantitate=4;
+}
+message ComandaGrpc{
+	int32 id=1;
+	string descriere=2;
+	int32 status=3;
 }

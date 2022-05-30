@@ -8,7 +8,9 @@ namespace VanzariClient
     {
         ADDPRODUS,
         DELETEPRODUS,
-        MODPRODUS
+        MODPRODUS,
+        UPDATECOMANDA,
+        RELOADPRODUSE
     }
     public class VanzariEvent
     {

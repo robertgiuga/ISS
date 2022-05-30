@@ -21,7 +21,7 @@ namespace VanzariClient
             this.client = client;
         }
 
-        public IEnumerable<Produs> findAllProduse()
+        public IEnumerable<Produs> FindAllProduse()
         {
             var reply = client.findAllProduse(new RequestGrpc { });
             List<Produs> produse = new List<Produs>();
@@ -34,6 +34,41 @@ namespace VanzariClient
             }
             else throw new ValidationExcetion(reply.Message);
             return produse;
+        }
+
+        public void UpdateComanda(Comanda comanda)
+        {
+            var reply = client.updateComanda(new RequestGrpc { Comanda = new ComandaGrpc { Id = comanda.Id, Descriere = comanda.Descriere, Status = (int)comanda.Status } });
+            if (reply.Type == ReplyGrpc.Types.ResponseType.Error)
+                throw new ValidationExcetion(reply.Message);
+        }
+
+        public IEnumerable<Comanda> FindAllComenzi()
+        {
+            var replay = client.findAllComenzi(new RequestGrpc { });
+            List<Comanda> comenzi = new List<Comanda>();
+            if (replay.Type == ReplyGrpc.Types.ResponseType.Ok)
+            {
+                foreach (var item in replay.Comanda)
+                {
+                    comenzi.Add(new Comanda(item.Id, item.Descriere, (Model.Status)item.Status));
+                }
+            }
+            else throw new ValidationExcetion(replay.Message);
+            return comenzi;
+        }
+
+        public void SendOrder(Comanda comanda, List<ComandaItem> items)
+        {
+            var request = new RequestGrpc { Comanda = new ComandaGrpc { Id = comanda.Id, Descriere = comanda.Descriere, Status = (int)comanda.Status } };
+            foreach (var item in items)
+            {
+                request.ComandaItems.Add(new ComandaItemGrpc { Id = item.Id, Cantitate = item.Cantitate, ComandaId = item.ComandaId });
+            }
+            var replay = client.addComanda(request);
+            if (replay.Type == ReplyGrpc.Types.ResponseType.Error)
+                throw new ValidationExcetion(replay.Message);
+
         }
 
         public void LogOut(Angajat angajat)
@@ -50,7 +85,7 @@ namespace VanzariClient
                 throw new ValidationExcetion(reply.Message);
         }
 
-        public Angajat LogIn(Angajat angajat,IVanzariObserver observer)
+        public Angajat LogIn(Angajat angajat, Observer observer)
         {
 
             Console.WriteLine("Login...");
@@ -150,5 +185,6 @@ namespace VanzariClient
 
             return inUse;
         }
+
     }
 }

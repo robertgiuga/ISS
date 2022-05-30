@@ -2,14 +2,16 @@
 using GrpcServer.DBContexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GrpcServer.Migrations
 {
     [DbContext(typeof(VanzariDbContext))]
-    partial class VanzariDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220521153654_SecondMigration")]
+    partial class SecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

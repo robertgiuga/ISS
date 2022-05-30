@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Grpc.Core;
 using System.Windows.Forms;
+using VanzariClient.Controllers;
 
 namespace VanzariClient
 {
@@ -21,7 +22,7 @@ namespace VanzariClient
             Channel channel = new Channel("127.0.0.1:3001", ChannelCredentials.Insecure);
             var client = new VanzariService.Service.ServiceClient(channel);
             VanzariProxy service = new VanzariProxy(client);
-            Controller controller = new Controller(service);
+            LogInController controller = new LogInController(service);
             Application.Run(new LogIn(controller));
         }
     }

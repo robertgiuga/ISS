@@ -98,6 +98,30 @@ namespace VanzariService {
         __Marshaller_vanzari_RequestGrpc,
         __Marshaller_vanzari_ReplyGrpc);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_addComanda = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "addComanda",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_updateComanda = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "updateComanda",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_findAllComenzi = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "findAllComenzi",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -144,6 +168,24 @@ namespace VanzariService {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::VanzariService.ReplyGrpc> addComanda(global::VanzariService.RequestGrpc request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::VanzariService.ReplyGrpc> updateComanda(global::VanzariService.RequestGrpc request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::VanzariService.ReplyGrpc> findAllComenzi(global::VanzariService.RequestGrpc request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -157,7 +199,10 @@ namespace VanzariService {
           .AddMethod(__Method_findAllProduse, serviceImpl.findAllProduse)
           .AddMethod(__Method_addProdus, serviceImpl.addProdus)
           .AddMethod(__Method_updateProdus, serviceImpl.updateProdus)
-          .AddMethod(__Method_deleteProdus, serviceImpl.deleteProdus).Build();
+          .AddMethod(__Method_deleteProdus, serviceImpl.deleteProdus)
+          .AddMethod(__Method_addComanda, serviceImpl.addComanda)
+          .AddMethod(__Method_updateComanda, serviceImpl.updateComanda)
+          .AddMethod(__Method_findAllComenzi, serviceImpl.findAllComenzi).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -173,6 +218,9 @@ namespace VanzariService {
       serviceBinder.AddMethod(__Method_addProdus, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.addProdus));
       serviceBinder.AddMethod(__Method_updateProdus, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.updateProdus));
       serviceBinder.AddMethod(__Method_deleteProdus, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.deleteProdus));
+      serviceBinder.AddMethod(__Method_addComanda, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.addComanda));
+      serviceBinder.AddMethod(__Method_updateComanda, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.updateComanda));
+      serviceBinder.AddMethod(__Method_findAllComenzi, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(serviceImpl.findAllComenzi));
     }
 
   }

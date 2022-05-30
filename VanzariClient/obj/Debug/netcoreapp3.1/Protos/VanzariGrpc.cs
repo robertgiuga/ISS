@@ -98,6 +98,30 @@ namespace VanzariService {
         __Marshaller_vanzari_RequestGrpc,
         __Marshaller_vanzari_ReplyGrpc);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_addComanda = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "addComanda",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_updateComanda = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "updateComanda",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc> __Method_findAllComenzi = new grpc::Method<global::VanzariService.RequestGrpc, global::VanzariService.ReplyGrpc>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "findAllComenzi",
+        __Marshaller_vanzari_RequestGrpc,
+        __Marshaller_vanzari_ReplyGrpc);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -250,6 +274,66 @@ namespace VanzariService {
       public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> deleteProdusAsync(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_deleteProdus, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc addComanda(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return addComanda(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc addComanda(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_addComanda, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> addComandaAsync(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return addComandaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> addComandaAsync(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_addComanda, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc updateComanda(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return updateComanda(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc updateComanda(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_updateComanda, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> updateComandaAsync(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return updateComandaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> updateComandaAsync(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_updateComanda, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc findAllComenzi(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return findAllComenzi(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::VanzariService.ReplyGrpc findAllComenzi(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_findAllComenzi, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> findAllComenziAsync(global::VanzariService.RequestGrpc request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return findAllComenziAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::VanzariService.ReplyGrpc> findAllComenziAsync(global::VanzariService.RequestGrpc request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_findAllComenzi, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
